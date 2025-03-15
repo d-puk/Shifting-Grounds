@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+@import url('./assets/fonts/Erode/css/erode.css');
+
+:root {
+  --font-serif: "Erode";
+  --font-mono: "Geist Mono";
+  
+  font-family: var(--font-serif), var(--font-mono), system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255);
+  background-color: var(--background-page);
+
+  /* Background */
+  --background-page: #E8F4E7;
+  --background-body: #E8F4E7;
+  /* Border */
+  --border-container: var(--colour-neutrals-300); 
+	--border-strong: var(--colour-neutrals-400); 
+	--border-inactive: var(--colour-neutrals-200); 
+	--border-outline: var(--colour-neutrals-900); 
+  /* Icon */
+  --icon-primary: var(--colour-neutrals-800);
+	--icon-secondary: var(--colour-neutrals-700);
+	--icon-subtle: var(--colour-neutrals-600);
+	--icon-inactive: var(--colour-neutrals-500);
+  /* Text */
+  --text-body: var(--colour-neutrals-800);
+	--text-secondary: var(--colour-neutrals-700);
+	--text-subtle: var(--colour-neutrals-600);
+	--text-inactive: var(--colour-neutrals-500);
+}
+
+html {
+  /* Colours */
+  --colour-neutrals-50: #F7F7FF;
+	--colour-neutrals-100: #EFEFFB;
+	--colour-neutrals-200: #E5E4F0;
+	--colour-neutrals-300: #D4D3DF;
+	--colour-neutrals-400: #B0AFBA;
+	--colour-neutrals-500: #8F8F99;
+	--colour-neutrals-600: #676771;
+	--colour-neutrals-700: #54545E;
+	--colour-neutrals-800: #36363F;
+	--colour-neutrals-900: #16161E;
+
+  /* Spacing */
+  --spacing-025: 0.125rem;
+	--spacing-05: 0.25rem; 
+	--spacing-1: 0.5rem;
+	--spacing-2: 1rem;
+	--spacing-3: 1.5rem;
+	--spacing-4: 2rem;
+	--spacing-5: 2.5rem;
+	--spacing-6: 3rem;
+	--spacing-7: 3.5rem;
+	--spacing-8: 4rem;
+	--spacing-9: 4.5rem;
+	--spacing-10: 5rem;
+	--spacing-11: 5.5rem;
+	--spacing-12: 6rem;
+
+  /* Radii */
+  --radius-s: 4px;
+	--radius-m: 8px;
+	--radius-l: 16px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Typography */
+
+h1 {
+  margin: 0;
+  color: var(--text-body);
+  font-family: var(--font-serif-headline);
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  line-height: 6rem;
+}
+
+h3 {
+  margin: 0;
+  color: var(--text-subtle);
+  font-family: var(--font-serif-headline);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h4 {
+  margin: 0;
+  color: var(--text-inactive);
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p {
+  margin: 0;
+  color: var(--text-body);
+  font-family: var(--font-serif-body);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-column {
+  margin: 0;
+  display: flex;
+  gap: var(--spacing-2);
+  width: 40%;
+  max-width: 560px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Tablet */
+/* @media (max-width: 1024px) and (min-width: 768px) {
+
+} */
+
+/* Phone */
+/* @media (max-width: 767px) {
+
+} */
