@@ -1,5 +1,5 @@
 <script>
-    import coffeeBelt from '../../public/maps/02. Coffee Belt.png'
+    import coffeeBelt from '../assets/maps/02. Coffee Belt.png'
     import priceChanges from '../assets/priceChange.png'
 </script>
 

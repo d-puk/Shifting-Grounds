@@ -14,13 +14,19 @@
         // Initialise on first load
         previousMapSrc = currentMapSrc;
     }
+
+    function getMapPath(mapName) {
+        // Using dynamic imports with Vite
+        return new URL(`../../assets/maps/${mapName}`, import.meta.url).href;
+        // src="{`/maps/${currentMapSrc}`}"
+    }
 </script>
 
 <div class="map-container">
     {#key currentMapSrc}
         <img 
             class="map-image" 
-            src="{`/maps/${currentMapSrc}`}" 
+            src={getMapPath(currentMapSrc)} 
             alt="Maps of changes in the coffee belt"
             transition:fade={{ duration: transitionDuration }}
         >
