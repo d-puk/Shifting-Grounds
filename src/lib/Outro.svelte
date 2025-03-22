@@ -12,7 +12,6 @@
         display: flex;
         padding: var(--spacing-2, 1rem) 0rem;
         justify-content: space-between;
-        align-self: stretch;
         width: 95%;
 
         border-block: 1px solid var(--border-strong, #B0AFBA);
