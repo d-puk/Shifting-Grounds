@@ -18,7 +18,7 @@
 <style>
     .heading {
         display: flex;
-        width: 100%;
+        width: 95%;
         flex-direction: column;
         justify-content: center;
         align-items: center;

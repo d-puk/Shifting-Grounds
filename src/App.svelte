@@ -74,7 +74,6 @@
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    padding-inline: 2rem;
     margin-block: var(--spacing-4, 2rem);
   }
 
