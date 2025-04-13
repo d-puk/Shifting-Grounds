@@ -6,13 +6,13 @@
 
 <section id={id} class="story-section">
     <div class="content-card">
-        <p>{content}</p>
+        <p>{@html content}</p>
     </div>
 </section>
 
 <style>
     .story-section {
-        min-height: 100vh;
+        min-height: 200vh;
         padding: 2rem;
         display: flex;
         flex-direction: column;

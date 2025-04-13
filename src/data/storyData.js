@@ -11,17 +11,17 @@ export const storyData = [
     }, 
     {
         id: 'coffeeCurrent',
-        content: 'The key producers of coffee, countries like Brazil, Ethiopia, Vietnam, all benefit from the tropical climates that this zone provides, making coffee growth favourable in these regions currently. ',
+        content: 'The key producers of coffee, countries like Brazil, Ethiopia, Vietnam, all benefit from the tropical climates that this zone provides, making coffee growth favourable in these regions <span style="color: #DFB431; font-weight: bold;">currently</span>. ',
         mapImage: '04. Coffee Current.png',
     }, 
     {
         id: 'coffeeUnsuitable',
-        content: 'By 2050, this area is set to reduce by half, and become unsuitable for coffee growth. Rising temperatures, altered rainfall and extreme weather events like heatwaves and drought are going to affect the growth cycle of the coffee plants.',
+        content: 'By 2050, this area is set to reduce by half, and become <span style="color: #E8705F; font-weight: bold;">unsuitable</span> for coffee growth. Rising temperatures, altered rainfall and extreme weather events like heatwaves and drought are going to affect the growth cycle of the coffee plants.',
         mapImage: '05. Unsuitable.png',
     }, 
     {
         id: 'coffeeSuitable',
-        content: 'As a result, new regions with relatively favourable conditions are emerging, effectively shifting and splitting the coffee belt as we knew it.',
+        content: 'As a result, new regions with relatively <span style="color: #5ABDAC; font-weight: bold;">favourable</span> conditions are emerging, effectively shifting and splitting the coffee belt as we knew it.',
         mapImage: '06. Suitable.png',
     }, 
     {
